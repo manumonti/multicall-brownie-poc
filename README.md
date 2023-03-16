@@ -21,7 +21,7 @@ You have to install [multicall.py](https://github.com/banteg/multicall.py) packa
 pipx inject eth-brownie multicall
 ```
 
-Export the INFURA API key:
+Export the INFURA API key. Add a .env file with this line:
 
 ```
 export WEB3_INFURA_PROJECT_ID='aaaa1111bbbb2222cccc3333dddd4444'
